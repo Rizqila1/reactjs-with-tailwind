@@ -47,12 +47,12 @@ export default function RightSectionLandingPage() {
                       ))}
                   </div>
 
-                  <p className="flex items-center text-red text-sm font-semibold">
+                  <div className="flex items-center text-red text-sm font-semibold">
                     $
                     <p className="xl:text-lg lg:text-sm text-black font-semibold">
                       18.00
                     </p>
-                  </p>
+                  </div>
                 </div>
               </div>
             }
@@ -87,12 +87,12 @@ export default function RightSectionLandingPage() {
                       ))}
                   </div>
 
-                  <p className="flex items-center text-red text-sm font-semibold">
+                  <div className="flex items-center text-red text-sm font-semibold">
                     $
                     <p className="xl:text-lg lg:text-sm text-black font-semibold">
                       18.00
                     </p>
-                  </p>
+                  </div>
                 </div>
               </div>
             }

@@ -8,7 +8,7 @@ export default function OnlineOrderingLogoSVG({ className }) {
       fill="none"
       className={`${className}`}
     >
-      <g clip-path="url(#clip0_1_196)">
+      <g clipPath="url(#clip0_1_196)">
         <path
           d="M18.6664 64.0017C21.612 64.0017 23.9998 61.6139 23.9998 58.6684C23.9998 55.7229 21.612 53.3351 18.6664 53.3351C15.7209 53.3351 13.3331 55.7229 13.3331 58.6684C13.3331 61.6139 15.7209 64.0017 18.6664 64.0017Z"
           fill="#5FE26C"

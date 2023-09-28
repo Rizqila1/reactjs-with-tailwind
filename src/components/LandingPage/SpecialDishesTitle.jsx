@@ -29,14 +29,14 @@ export default function SpecialDishesTitle() {
                 <path
                   d="M9.76453 2L2.00003 9.7645"
                   stroke="#6F6E6E"
-                  stroke-width="4"
-                  stroke-linecap="round"
+                  strokeWidth="4"
+                  strokeLinecap="round"
                 />
                 <path
                   d="M9.76453 18L2.00003 10.2355"
                   stroke="#6F6E6E"
-                  stroke-width="4"
-                  stroke-linecap="round"
+                  strokeWidth="4"
+                  strokeLinecap="round"
                 />
               </svg>
             }
