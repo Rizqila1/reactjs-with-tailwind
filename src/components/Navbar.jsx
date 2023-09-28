@@ -3,7 +3,7 @@ import Button from "./Button";
 
 export default function Navbar() {
   return (
-    <nav className="xl:px-8 lg:px-10 mt-8">
+    <nav className="xl:px-10 lg:px-10 mt-8">
       <section className="grid grid-cols-5 xl:grid-cols-5 md:grid-cols-5 sm:grid-cols-5 gap-4 items-center">
         {/* FOODI LOGO START*/}
         <div className="flex items-center md:col-span-5 sm:col-span-5 sm:justify-center md:justify-center">
@@ -61,12 +61,12 @@ export default function Navbar() {
               Home
             </a>
 
-            <select className="font-medium xl:mx-12 lg:mx-6 md:mx-12 sm:mx-12">
-              <option selected>Menu</option>
+            <select className="bg-transparent font-medium xl:mx-12 lg:mx-6 md:mx-12 sm:mx-12">
+              <option value="">Menu</option>
             </select>
 
-            <select className="font-medium xl:me-12 lg:me-6 md:me-12 sm:me-12">
-              <option selected>Services</option>
+            <select className="bg-transparent font-medium xl:me-12 lg:me-6 md:me-12 sm:me-12">
+              <option value="">Services</option>
             </select>
 
             <a href="/" className="font-medium">
