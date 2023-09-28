@@ -14,6 +14,9 @@ export const Button = ({
       case "white":
         return "bg-white hover:bg-gray-100 py-3 px-4 rounded-40 text-black";
 
+      case "secondary":
+        return "bg-[#EFEFEF] hover:bg-gray-100 py-3 px-4 rounded-full text-black";
+
       default:
         return "bg-lightgreen hover:bg-green-500 py-3 px-4 rounded-40 text-white";
     }
