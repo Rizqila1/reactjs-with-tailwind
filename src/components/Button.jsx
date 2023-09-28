@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export const Button = ({
   variant = "lightgreen",
   icon,
@@ -22,7 +24,7 @@ export const Button = ({
     }
   }
   return (
-    <a href={href}>
+    <Link to={href}>
       <button
         type="button"
         className={`${buttonVariant(variant)}, ${className}`}
@@ -30,7 +32,7 @@ export const Button = ({
       >
         {icon} {btnText}
       </button>
-    </a>
+    </Link>
   );
 };
 

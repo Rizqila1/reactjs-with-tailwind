@@ -1,8 +1,10 @@
+import { Link } from "react-router-dom";
+
 export default function FoodiLogo({ className }) {
   return (
     <div className={`flex items-center ${className}`}>
       <span>
-        <a href="/">
+        <Link to="/">
           <div className="bg-lightgreen px-2 py-2 rounded-md">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -17,9 +19,9 @@ export default function FoodiLogo({ className }) {
               />
             </svg>
           </div>
-        </a>
+        </Link>
       </span>
-      <a href="/">
+      <Link to="/">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="71"
@@ -44,7 +46,7 @@ export default function FoodiLogo({ className }) {
             fill="black"
           />
         </svg>
-      </a>
+      </Link>
     </div>
   );
 }

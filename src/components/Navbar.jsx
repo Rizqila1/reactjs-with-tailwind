@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Button from "./Button";
 
@@ -8,7 +9,7 @@ export default function Navbar() {
         {/* FOODI LOGO START*/}
         <div className="flex items-center md:col-span-5 sm:col-span-5 sm:justify-center md:justify-center">
           <span>
-            <a href="/">
+            <Link to="/">
               <div className="bg-lightgreen px-2 py-2 rounded-md">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -23,9 +24,9 @@ export default function Navbar() {
                   />
                 </svg>
               </div>
-            </a>
+            </Link>
           </span>
-          <a href="/">
+          <Link to="/">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="71"
@@ -50,16 +51,16 @@ export default function Navbar() {
                 fill="black"
               />
             </svg>
-          </a>
+          </Link>
         </div>
         {/* FOODI LOGO END*/}
 
         {/* NAVBAR MENU START */}
         <span className="xl:col-span-2 lg:col-span-2 md:col-span-5 sm:col-span-5 flex justify-center">
           <div className="flex items-center">
-            <a href="/" className="font-medium text-lightgreen">
+            <Link to="/" className="font-medium text-lightgreen">
               Home
-            </a>
+            </Link>
 
             <select className="bg-transparent font-medium xl:mx-12 lg:mx-6 md:mx-12 sm:mx-12">
               <option value="">Menu</option>
@@ -69,9 +70,9 @@ export default function Navbar() {
               <option value="">Services</option>
             </select>
 
-            <a href="/" className="font-medium">
+            <Link to="/" className="font-medium">
               Offers
-            </a>
+            </Link>
           </div>
         </span>
         {/* NAVBAR MENU END */}
@@ -86,21 +87,19 @@ export default function Navbar() {
             <FontAwesomeIcon icon="fa-solid fa-bag-shopping" />
           </button>
 
-          <a href="/">
-            <Button
-              icon={
-                <FontAwesomeIcon
-                  icon="fa-solid fa-phone-volume"
-                  className="me-1"
-                />
-              }
-              btnText={"Contact"}
-              variant="lightgreen"
-              style={{ width: "179px", height: "100%" }}
-              href="/"
-              className="px-8 font-medium text-white"
-            />
-          </a>
+          <Button
+            icon={
+              <FontAwesomeIcon
+                icon="fa-solid fa-phone-volume"
+                className="me-1"
+              />
+            }
+            btnText={"Contact"}
+            variant="lightgreen"
+            style={{ width: "179px", height: "100%" }}
+            href="/"
+            className="px-8 font-medium text-white"
+          />
         </span>
         {/* NAVBAR ICONS END */}
       </section>
